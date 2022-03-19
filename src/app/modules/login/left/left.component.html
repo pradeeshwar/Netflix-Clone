@@ -1,0 +1,20 @@
+
+
+
+<div>
+    
+    <div class = "body">
+        
+<div class="login">
+    <h1 class="login__title">Sign In</h1>
+    <div class="login__group"><input class="login__group__input" type="text" required="true" [(ngModel)]="email" /><label class="login__group__label">Email</label></div>
+    <div class="login__group"><input class="login__group__input" type="password" required="true" [(ngModel)]="pass1" /><label class="login__group__label">Password</label></div>
+    <div class="login__group"><input class="login__group__input" type="text" required="true" [(ngModel)]="no" /><label class="login__group__label">phone no:</label></div>
+    <button class="login__sign-in" type="button" (click) ="send()" >Sign In</button>
+    <div class="login__secondary-cta"><a class="login__secondary-cta__text" href="#">Remember me</a><a class="login__secondary-cta__text login__secondary-cta__text--need-help" href="#">Need help?</a></div>
+
+</div>
+<p style="color:whitesmoke ;margin-left: -1500 px "><app-right [passdata]="passdata" [rightdata] = "rightdata"   [sendno]="sendno"></app-right></p>
+   </div>
+</div>
+

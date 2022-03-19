@@ -1,0 +1,42 @@
+
+    .rightbody {
+        position: absolute;
+        padding-left: 300px;
+        
+        margin-top: -245px; 
+        
+    }
+     .login {
+        display: flex;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.75);
+        border-radius: 4px;
+       min-width: 300px; 
+       max-width: 370px;
+        height: 100%;
+        padding: 60px 68px 40px;
+        height: 495px;
+    }
+    .head{
+        margin-bottom: 20px;
+        font-size: 2.2rem;
+        font-weight: 600;
+        color: #fff;
+        text-align: center;
+    }
+
+
+
+    input.input{
+    width: 100%;
+    position: relative;
+    z-index: 300;
+    background: #333;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: none;
+    opacity: 1;
+    font-size: 1rem;
+    color: #fff;
+    line-height: 45px;
+    padding: 12px 18px 0;}
