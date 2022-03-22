@@ -1,0 +1,21 @@
+
+
+
+<div>
+    
+    <div class = "body">
+        
+<div class="login">
+    <h1 class="login__title">Contact Us</h1>
+    <div class="login__group"><input class="login__group__input" type="text" required="true" [(ngModel)]="parentname" /><label class="login__group__label">Name</label></div>
+    <div class="login__group"><input class="login__group__input" type="text" required="true" [(ngModel)]="pemail" /><label class="login__group__label">Email</label></div>
+    <div class="login__group"><input class="login__group__input" type="text" required="true" [(ngModel)]="pno" /><label class="login__group__label">phone no:</label></div>
+    <div class="login__group"> <textarea id ="story" [(ngModel)]="ptext"    rows="5" cols="93"> Your message</textarea><label class="login__group__label">Your message</label></div>
+    <button class="login__sign-in" type="button" (click) ="transferdata()" >Submit</button>
+   
+
+</div>
+<p><app-cright [sendingdata]="sendingdata" [semail]="semail"  [stext]="stext" [sno]="sno"> </app-cright></p>
+   </div>
+</div>
+

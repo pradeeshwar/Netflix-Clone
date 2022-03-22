@@ -9,7 +9,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import { MatSliderModule } from '@angular/material/slider';
 import { HomepageModule } from './modules/homepage/homepage.module';
-
+import { ContactModule } from './modules/contact/contact.module';
 import { HeaderModule } from './modules/header/header.module';
 
 @NgModule({
@@ -18,7 +18,7 @@ import { HeaderModule } from './modules/header/header.module';
     
   ],
   imports: [
-    BrowserModule,LoginModule, MatIconModule,MatSliderModule,LoginModule,HomepageModule,HeaderModule,
+    BrowserModule,LoginModule, MatIconModule,MatSliderModule,LoginModule,HomepageModule,HeaderModule,ContactModule,
     AppRoutingModule,FormsModule, BrowserAnimationsModule,MatToolbarModule
   ],
   
